@@ -5,6 +5,8 @@
     background-color: variables.$textColor;
     display: flex;
     justify-content: space-between;
+    opacity: 0.6;
+    border-radius: 50px;
 
     &__infos {
         display: flex;
@@ -13,6 +15,7 @@
         &__item {
             font-size: 14px;
             color: variables.$secundaryTextColor;
+            opacity: 1.0;
 
             b {
                 color: variables.$secundaryTextColor;
